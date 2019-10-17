@@ -1,6 +1,9 @@
 # qstring
 
-The easiest way to build querystrings
+[![Build Status](https://travis-ci.org/aaronhayes/qstring.svg?branch=master)](https://travis-ci.org/aaronhayes/qstring)
+[![codecov](https://codecov.io/gh/aaronhayes/qstring/branch/master/graph/badge.svg)](https://codecov.io/gh/aaronhayes/qstring)
+
+The easiest way to build querystrings.
 
 ## Install
 
@@ -15,7 +18,7 @@ $ yarn add @aaronhayes/qstring
 ## Usage
 
 ```TypeScript
-import qstring from 'qstring';
+import qstring, { ArrayFormat } from 'qstring';
 
 const qs = qstring('https://myapi.com', {
     foo: 'bar',
