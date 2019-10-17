@@ -1,7 +1,10 @@
 # qstring
 
-[![Build Status](https://travis-ci.org/aaronhayes/qstring.svg?branch=master)](https://travis-ci.org/aaronhayes/qstring)
-[![codecov](https://codecov.io/gh/aaronhayes/qstring/branch/master/graph/badge.svg)](https://codecov.io/gh/aaronhayes/qstring)
+![npm (scoped)](https://img.shields.io/npm/v/@aaronhayes/qstring?style=flat-square)
+![Build](https://img.shields.io/travis/aaronhayes/qstring?style=flat-square)
+![Codecov](https://img.shields.io/codecov/c/github/aaronhayes/qstring?style=flat-square)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@aaronhayes/qstring?style=flat-square)
+![NPM](https://img.shields.io/npm/l/@aaronhayes/qstring?style=flat-square)
 
 The easiest way to build querystrings.
 
