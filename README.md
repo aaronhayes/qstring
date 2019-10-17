@@ -6,7 +6,9 @@
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@aaronhayes/qstring?style=flat-square)
 ![NPM](https://img.shields.io/npm/l/@aaronhayes/qstring?style=flat-square)
 
-The easiest way to build querystrings.
+The easiest way to build querystrings. I wanted a lightweight, easy to use way to build full urls including the querystring.
+
+The popular [query-string](https://github.com/sindresorhus/query-string) only handles the part querystring part, so there is another step of building the final url. The API inspired by JedWatson's [Classnames](https://github.com/JedWatson/classnames) Package.
 
 ## Install
 
