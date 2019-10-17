@@ -1,6 +1,6 @@
 {
   "name": "@aaronhayes/qstring",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "The easiest way to build query strings",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -12,7 +12,9 @@
     "qs",
     "builder",
     "query",
-    "string"
+    "string",
+    "query string",
+    "query-string"
   ],
   "scripts": {
     "describe": "npm-scripts-info",
