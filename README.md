@@ -23,7 +23,7 @@ $ yarn add @aaronhayes/qstring
 ## Usage
 
 ```TypeScript
-import qstring, { ArrayFormat } from 'qstring';
+import qstring, { ArrayFormat } from '@aaronhayes/qstring';
 
 const qs = qstring('https://myapi.com', {
     foo: 'bar',
