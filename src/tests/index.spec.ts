@@ -82,3 +82,9 @@ test('should correctly handle array variables - comma encoding', t => {
 
   t.is(qs, 'https://myapi.com?foo=hello,world&cat=dog');
 });
+
+test('should correctly handle empty options', t => {
+  const qs = qstring('https://myapi.com', {});
+
+  t.is(qs, 'https://myapi.com');
+});
